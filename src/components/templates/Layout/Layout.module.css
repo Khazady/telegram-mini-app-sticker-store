@@ -1,6 +1,7 @@
 @value sm from "@/styles/breakpoints.module.css";
 
 .layout {
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   gap: calc(var(--spacing-lg) * 2);
