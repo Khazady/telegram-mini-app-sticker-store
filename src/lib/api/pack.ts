@@ -1,7 +1,7 @@
 export type Pack = {
   id: string;
   title: string;
-  image: string | null;
+  image: string | undefined;
   priceTon: number;
 };
 
