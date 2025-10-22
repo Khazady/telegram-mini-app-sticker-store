@@ -19,5 +19,7 @@ export async function getPacks(options: GetPacksOptions = {}): Promise<Pack[]> {
     throw new Error(`Failed to fetch sticker packs: ${response.status}`);
   }
   const data = await response.json();
-  return data;
+  return data ?? [];
 }
+
+export const getPacksPromise = getPacks();

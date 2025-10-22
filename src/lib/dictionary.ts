@@ -6,6 +6,9 @@ export const dictionary = {
     buyNow: "Buy Now",
     share: "Share",
   },
+  carousel: {
+    loading: "Loading packs…",
+  },
 } as const;
 
 export type Dictionary = typeof dictionary;

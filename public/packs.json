@@ -1,20 +1,20 @@
 [
-  { "id": "p1", "title": "DOGE Sticker #001", "image": "https://picsum.photos/seed/sticker001/512/512", "priceTon": 1.2 },
-  { "id": "p2", "title": "CAT Sticker #002", "image": "https://picsum.photos/seed/sticker002/512/512", "priceTon": 0.9 },
-  { "id": "p3", "title": "FROG Sticker #003", "image": "https://picsum.photos/seed/sticker003/512/512", "priceTon": 1.5 },
-  { "id": "p4", "title": "UNICORN Sticker #004", "image": "https://picsum.photos/seed/sticker004/512/512", "priceTon": 1.1 },
-  { "id": "p5", "title": "PEPE Sticker #005", "image": "https://picsum.photos/seed/sticker005/512/512", "priceTon": 0.8 },
-  { "id": "p6", "title": "ROCKET Sticker #006", "image": "https://picsum.photos/seed/sticker006/512/512", "priceTon": 1.7 },
-  { "id": "p7", "title": "BANANA Sticker #007", "image": "https://picsum.photos/seed/sticker007/512/512", "priceTon": 1.0 },
-  { "id": "p8", "title": "PIZZA Sticker #008", "image": "https://picsum.photos/seed/sticker008/512/512", "priceTon": 1.3 },
-  { "id": "p9", "title": "FIRE Sticker #009", "image": "https://picsum.photos/seed/sticker009/512/512", "priceTon": 1.6 },
-  { "id": "p10", "title": "STAR Sticker #010", "image": "https://picsum.photos/seed/sticker010/512/512", "priceTon": 0.95 },
-  { "id": "p11", "title": "HEART Sticker #011", "image": "https://picsum.photos/seed/sticker011/512/512", "priceTon": 1.4 },
-  { "id": "p12", "title": "GHOST Sticker #012", "image": "https://picsum.photos/seed/sticker012/512/512", "priceTon": 1.25 },
-  { "id": "p13", "title": "COOL Sticker #013", "image": "https://picsum.photos/seed/sticker013/512/512", "priceTon": 0.85 },
-  { "id": "p14", "title": "SUS Sticker #014", "image": "https://picsum.photos/seed/sticker014/512/512", "priceTon": 1.9 },
-  { "id": "p15", "title": "WAVE Sticker #015", "image": "https://picsum.photos/seed/sticker015/512/512", "priceTon": 1.05 },
-  { "id": "p16", "title": "GLITCH Sticker #016", "image": "https://picsum.photos/seed/sticker016/512/512", "priceTon": 0.7 }
+  { "id": "p1", "title": "DOGE Sticker #001", "image": "https://picsum.photos/seed/sticker001/300/190", "priceTon": 1.2 },
+  { "id": "p2", "title": "CAT Sticker #002", "image": "https://picsum.photos/seed/sticker002/300/190", "priceTon": 0.9 },
+  { "id": "p3", "title": "FROG Sticker #003", "image": "https://picsum.photos/seed/sticker003/300/190", "priceTon": 1.5 },
+  { "id": "p4", "title": "UNICORN Sticker #004", "image": "https://picsum.photos/seed/sticker004/300/190", "priceTon": 1.1 },
+  { "id": "p5", "title": "PEPE Sticker #005", "image": "https://picsum.photos/seed/sticker005/300/190", "priceTon": 0.8 },
+  { "id": "p6", "title": "ROCKET Sticker #006", "image": "https://picsum.photos/seed/sticker006/300/190", "priceTon": 1.7 },
+  { "id": "p7", "title": "BANANA Sticker #007", "image": "https://picsum.photos/seed/sticker007/300/190", "priceTon": 1.0 },
+  { "id": "p8", "title": "PIZZA Sticker #008", "image": "https://picsum.photos/seed/sticker008/300/190", "priceTon": 1.3 },
+  { "id": "p9", "title": "FIRE Sticker #009", "image": "https://picsum.photos/seed/sticker009/300/190", "priceTon": 1.6 },
+  { "id": "p10", "title": "STAR Sticker #010", "image": "https://picsum.photos/seed/sticker010/300/190", "priceTon": 0.95 },
+  { "id": "p11", "title": "HEART Sticker #011", "image": "https://picsum.photos/seed/sticker011/300/190", "priceTon": 1.4 },
+  { "id": "p12", "title": "GHOST Sticker #012", "image": "https://picsum.photos/seed/sticker012/300/190", "priceTon": 1.25 },
+  { "id": "p13", "title": "COOL Sticker #013", "image": "https://picsum.photos/seed/sticker013/300/190", "priceTon": 0.85 },
+  { "id": "p14", "title": "SUS Sticker #014", "image": "https://picsum.photos/seed/sticker014/300/190", "priceTon": 1.9 },
+  { "id": "p15", "title": "WAVE Sticker #015", "image": "https://picsum.photos/seed/sticker015/300/190", "priceTon": 1.05 },
+  { "id": "p16", "title": "GLITCH Sticker #016", "image": "https://picsum.photos/seed/sticker016/300/190", "priceTon": 0.7 }
 ]
 
 

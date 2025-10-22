@@ -1,0 +1,48 @@
+.carousel {
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-text-inverse);
+}
+
+.cardBody {
+  height: 190px;
+  object-fit: cover;
+
+  border-radius: var(--radius-lg);
+  background-color: var(--surface-base);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+}
+
+.price {
+  display: flex;
+  gap: var(--spacing-xs);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+}
+
+.state {
+  text-align: center;
+  padding: calc(var(--spacing-lg) * 2) var(--spacing-lg);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-base);
+}
+
+.stateError {
+  composes: state;
+  color: var(--color-danger);
+}
