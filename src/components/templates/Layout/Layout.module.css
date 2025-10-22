@@ -8,9 +8,8 @@
   margin: 0 auto;
   max-width: 1200px;
   min-height: 100vh;
-  padding: calc(var(--spacing-lg) * 2)
-    clamp(calc(var(--spacing-md) * 2), 3vw, calc(var(--spacing-lg) * 3))
-    calc(var(--spacing-lg) * 3);
+  padding-inline: var(--spacing-md);
+  padding-block: var(--top-padding) var(--bottom-padding);
 }
 
 .header {
