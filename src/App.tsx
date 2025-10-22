@@ -13,6 +13,7 @@ export default function App() {
   const [query, setQuery] = useState("");
 
   const handleShareClick = () => {
+    webpApp.HapticFeedback.impactOccurred("medium");
     const openViaBotUrl = "https://t.me/tma_sticker_store_bot/dive_in";
     webpApp?.openTelegramLink(
       `https://t.me/share/url?url=${encodeURIComponent(openViaBotUrl)}&text=${encodeURIComponent(dictionary.shareText)}`,
