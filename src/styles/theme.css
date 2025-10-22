@@ -10,7 +10,7 @@
   --font-size-xl: 1.25rem;
 
   /* Telegram */
-  --top-padding: var(--tg-safe-area-inset-top, var(--spacing-lg));
+  --top-padding: calc(var(--tg-safe-area-inset-top, var(--spacing-lg)) + var(--tg-content-safe-area-inset-top, var(--spacing-lg)));
   --bottom-padding: var(--tg-safe-area-inset-bottom, var(--spacing-lg));
 
   /* Spacing */
