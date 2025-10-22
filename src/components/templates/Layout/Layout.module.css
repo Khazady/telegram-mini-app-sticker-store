@@ -23,6 +23,7 @@
   display: flex;
   flex-direction: column;
   gap: calc(var(--spacing-lg) * 1.5);
+  flex-grow: 1;
 }
 
 .footer {

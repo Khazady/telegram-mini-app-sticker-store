@@ -28,11 +28,22 @@ export default function App() {
           onChange={setQuery}
         />
       }
-      primary={
+      primary={[
         <Suspense fallback={<Spinner label={dictionary.carousel.loading} />}>
           <Carousel query={query} />
-        </Suspense>
-      }
+        </Suspense>,
+        //TODO: placeholder for future content
+        <div
+          style={{
+            flexGrow: 1,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          TBD PLACEHOLDER
+        </div>,
+      ]}
       footer={[
         <Button key="buy" onClick={handleBuyClick}>
           {dictionary.buttons.buyNow}
