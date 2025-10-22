@@ -6,6 +6,7 @@ import { Spinner } from "@/components/atoms/Spinner";
 import { Layout } from "@/components/templates/Layout/Layout";
 import { dictionary } from "@/lib/dictionary";
 import { useTelegramWebApp } from "./hooks/useTelegramWebApp";
+import { TonConnectButton } from "@tonconnect/ui-react";
 
 export default function App() {
   useTelegramWebApp();
@@ -48,6 +49,7 @@ export default function App() {
         <Button key="buy" onClick={handleBuyClick}>
           {dictionary.buttons.buyNow}
         </Button>,
+        <TonConnectButton />,
         <Button key="share" variant="secondary" onClick={handleShareClick}>
           {dictionary.buttons.share}
         </Button>,

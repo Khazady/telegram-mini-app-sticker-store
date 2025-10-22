@@ -37,7 +37,6 @@
 .secondary {
   background: color-mix(in srgb, var(--color-brand) 18%, transparent);
   color: var(--color-text);
-  border: 1px solid var(--border-default);
 }
 
 .secondary:not(:disabled):hover {

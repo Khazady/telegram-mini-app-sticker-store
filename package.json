@@ -12,19 +12,20 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@tonconnect/ui-react": "2.3.1",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "swiper": "12.0.2"
   },
   "devDependencies": {
     "@eslint/js": "9.37.0",
+    "@svgr/plugin-jsx": "8.1.0",
+    "@svgr/plugin-svgo": "8.1.0",
     "@twa-dev/types": "8.0.2",
     "@types/node": "24.7.2",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
     "@vitejs/plugin-react": "5.0.4",
-    "@svgr/plugin-svgo": "8.1.0",
-    "@svgr/plugin-jsx": "8.1.0",
     "eslint": "9.37.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-react-hooks": "5.2.0",
