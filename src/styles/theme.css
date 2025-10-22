@@ -11,7 +11,7 @@
 
   /* Telegram */
   --top-padding: calc(var(--spacing-sm) + var(--tg-safe-area-inset-top, var(--spacing-lg)) + var(--tg-content-safe-area-inset-top, var(--spacing-lg)));
-  --bottom-padding: var(--tg-safe-area-inset-bottom, var(--spacing-lg));
+  --bottom-padding: calc(var(--spacing-sm) + var(--tg-safe-area-inset-bottom, var(--spacing-lg)));
 
   /* Spacing */
   --spacing-xs: 8px;
