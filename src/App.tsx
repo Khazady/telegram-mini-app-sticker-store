@@ -9,15 +9,13 @@ import { useTelegramWebApp } from "./hooks/useTelegramWebApp";
 import { TonConnectButton } from "@tonconnect/ui-react";
 
 export default function App() {
-  useTelegramWebApp();
+  const webpApp = useTelegramWebApp();
   const [query, setQuery] = useState("");
 
-  const handleBuyClick = () => {
-    // TODO: connect TON modal
-  };
-
   const handleShareClick = () => {
-    // TODO: integrate Telegram share flow
+    webpApp?.openTelegramLink(
+      `https://t.me/share/url?url=${encodeURIComponent(import.meta.url)}&text=${encodeURIComponent(dictionary.shareText)}`,
+    );
   };
 
   return (
@@ -46,9 +44,6 @@ export default function App() {
         </div>,
       ]}
       footer={[
-        <Button key="buy" onClick={handleBuyClick}>
-          {dictionary.buttons.buyNow}
-        </Button>,
         <TonConnectButton />,
         <Button key="share" variant="secondary" onClick={handleShareClick}>
           {dictionary.buttons.share}
