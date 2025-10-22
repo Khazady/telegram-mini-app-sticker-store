@@ -1,5 +1,5 @@
 export const dictionary = {
-  shareText: "Try Sticker Store! with me:",
+  shareText: "Try Sticker Store! with me 🌝",
   header: {
     searchPlaceholder: "Search packs",
   },
