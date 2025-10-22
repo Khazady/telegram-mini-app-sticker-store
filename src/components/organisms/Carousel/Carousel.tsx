@@ -2,6 +2,7 @@ import { getPacksPromise } from "@/lib/api/pack";
 import { formatTonPrice } from "@/lib/utils/formatTonPrice";
 import { use, useMemo } from "react";
 import { Swiper, type SwiperProps, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import styles from "./Carousel.module.css";
 import TonLogo from "@/assets/ton-logo.svg?react";
@@ -13,6 +14,7 @@ type CarouselProps = {
 };
 
 const carouselConfig: SwiperProps = {
+  modules: [Autoplay],
   loop: true,
   loopAdditionalSlides: 4,
   centeredSlides: true,
@@ -42,23 +44,25 @@ export const Carousel = ({ query = "" }: CarouselProps) => {
 
   return (
     <Swiper {...carouselConfig} className={styles.carousel}>
-      {filteredPacks.map((pack) => (
-        <SwiperSlide key={pack.id} style={{ width: SLIDE_WIDTH }}>
-          <article className={styles.card}>
-            <img
-              width={SLIDE_WIDTH}
-              className={styles.cardBody}
-              src={pack.image}
-              alt={pack.title}
-            />
-            <h3 className={styles.title}>{pack.title}</h3>
-            <div className={styles.price}>
-              <span>{formatTonPrice(pack.priceTon)}</span>
-              <TonLogo width={24} height={24} />
-            </div>
-          </article>
-        </SwiperSlide>
-      ))}
+      {filteredPacks.map((pack) => {
+        return (
+          <SwiperSlide key={pack.id} style={{ width: SLIDE_WIDTH }}>
+            <article className={styles.card}>
+              <img
+                width={SLIDE_WIDTH}
+                className={styles.cardBody}
+                src={pack.image}
+                alt={pack.title}
+              />
+              <h3 className={styles.title}>{pack.title}</h3>
+              <div className={styles.price}>
+                <span>{formatTonPrice(pack.priceTon)}</span>
+                <TonLogo width={24} height={24} />
+              </div>
+            </article>
+          </SwiperSlide>
+        );
+      })}
     </Swiper>
   );
 };
